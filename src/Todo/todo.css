@@ -1,0 +1,61 @@
+.todoApp {
+    max-width: 400px;
+    margin: 20px auto;
+    border: 1px solid #ededed;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.todoForm {
+    border-bottom: 1px solid #ededed;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.formInput {
+    border: none;
+    min-height: 25px;
+    outline: none;
+    font-size: 24px;
+}
+
+.todoList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.todo {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid #ededed;
+    font-size: 24px;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.todoContent {
+    flex-grow: 1;
+}
+
+.todoContent:hover + .todoButton {
+    display: block;
+}
+
+
+.links {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.todoButton {
+    border: none;
+    background: none;
+    font-size: 24px;
+    color: red;
+    display: none;
+}
